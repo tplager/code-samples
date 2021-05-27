@@ -1,0 +1,185 @@
+<html>
+
+  <head>
+    <title>IGME 460.01 - Data Visualization</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:400,700" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+header, main, footer {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+header, footer {
+  text-align: center;
+}
+
+header {
+  padding: 10px 0px;
+}
+
+header>h1, header>h2{
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 10px 0px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+.centered {
+  text-align: center;
+}
+</style>
+  </head>
+  <body>
+
+    <header>
+      <h1>IGME 460.01 <br/>Data Visualization</h1>
+      <p>Spring 2020<br/>Travis Stodter</p>
+    </header>
+
+    <main>
+      <section>
+        <h1>Project 1</h1>
+
+        <h2>Due Date</h2>
+
+        <p>Before start of Class 8.3 (Friday, March 6th, 9:00am).
+           You will present your Project 1 to the class during class 8.3.</p>
+
+        <h2>Instructions</h2>
+
+        <p>Up until now, we've been working on learning the essentials of
+        D3.js and the basics of data visualization, working with mostly mock
+        data provided by me and working towards specific study and practice
+        goals. Now it's time to apply those skills on your own from start to
+        finish for our first major project. You will go out and find data of
+        interest to you, search for an interesting story within the data, and
+        build an interactive visualization to tell the story. The result
+        should be a clean and clear data visualization that provides
+        insight into your chosen dataset, wrapped up in a
+        journalist/business/scientific report. You may choose any data, but
+        for this first project you will want to find something not too
+        complex. As you work through this project, keep a record of your
+        process and analysis for your final writeup.</p>
+
+        <p>Regarding Data, there are numerous sites online to find data. Some sites you might try are:</p>
+
+        <ul>
+          <li><a href="https://www.kaggle.com/datasets">Kaggle</a></li>
+          <li><a href="https://www.google.com/publicdata/directory">Google list of public data sets</a>&nbsp;</li>
+          <li><a href="https://www.data.gov/ ">Open data from the US gov</a></li>
+          <li><a href="https://globaledge.msu.edu/global-resources/statistical-data-sources/">GlobalEdge</a></li>
+          <li><a href="https://analytics.usa.gov/data/">US Gov Analytics Data</a></li>
+          <li><a href="http://databank.worldbank.org/data/home.aspx">WorldBank Data</a></li>
+          <li><a href="https://visual.ly/blog/data-sources/">30 Places to Find Open Data on the Web</a></li>
+          <li><a href="http://www.the-numbers.com/">The Numbers - Movie Data</a></li>
+          <li><a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">EPA - Air Quality</a></li>
+          <li><a href="https://iatiregistry.org/">International Aid Data</a></li>
+          <li><a href="https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t">US Census data</a></li>
+          <li><a href="https://data.medicare.gov/">Medicare Data</a></li>
+          <li><a href="http://mlvis.com/">Scientific Data Repository</a></li>
+          <li><a href="https://data.opendatasoft.com/explore/">Open Datasoft</a></li>
+          <li><a href="https://www.grain.org/article/entries/4479-grain-releases-data-set-with-over-400-global-land-grabs">GRAIN Landgrab Dataset</a></li>
+        </ul>
+
+        <h2>Requirements</h2>
+
+        <h3>Data</h3>
+
+        <ul>
+          <li>Use a moderately large data set with a minimum 100 data values.
+          This should be a static data set (i.e., this should come from a
+          data file, rather than reading data from a web service).</li>
+          <li>Provide the original data set as part of the project submission.</li>
+          <li>Provide the processed data set if data cleaning/processing was performed on the source.</li>
+          <li>Each person must use a unique dataset (i.e., no two students should be using the same dataset)</li>
+        </ul>
+
+        <h3>Document with Visualization</h3>
+
+        <ul>
+          <li>Create an HTML5 document that tells a story and uses D3.js for the data visualization.</li>
+          <li>Develop the visualization to offer interactivity that provides different views into the data.</li>
+          <li>Uses effective choices for chart types, color, overall layout, shapes, labelling, axes.</li>
+        </ul>
+
+        <h3>Write Up</h3>
+
+        <p>The write up for your project should be a README.md (Markdown) or README.txt (plain text) file that is included in your repo's project1 folder. The write up should:</p>
+
+        <ul>
+          <li>Describe the data set you chose, its origin, and how you manipulated it.</li>
+          <li>Explain each decision in creating the visualization from the data (why that type of chart, type of interactivity, etc.)</li>
+          <li>Incorporate concepts covered in lecture.</li>
+        </li>
+        </ul>
+
+        <h2>Process</h2>
+
+        <ol>
+          <li><strong>Acquire and Clean Data Set</strong>: Choose a data set that you can work with, one that you feel comfortable that you can analyze and make sense of the information. Explore the data set and determine any deficiencies and issues that you will need to address by <em>data cleaning</em> using a tool like <a href="http://openrefine.org">OpenRefine</a>. These include:
+          <ul>
+            <li>Corrupt data</li>
+            <li>Duplicate data</li>
+            <li>Missing data</li>
+            <li>Non-normalized data (checking data is in same format, e.g. "1,000,000" vs. "1 million", or "Brazil" vs. "Brazil ")</li>
+          </ul>
+        </li>
+          <li><strong>Analyze the Data Set</strong>: Look at the data and see what data variables (e.g. name, age, popularity) are present and what kinds of data they are (nominal, ordinal, discrete, continuous). Figure out which data variables are going to play a role in your visualization and what kind of visualization is best going to serve the data variables. Take notes on what you're seeing in the data, and check it once you work on your visualization.</li>
+          <li><strong>Develop your Visualization</strong>: Work with the data and D3 to build your visualization. Consider if the data variables you want to visualize are being served by the marks and channels you are using for your visualization. Additionally, check that your channels are working as you thought they would: are you getting visual interference? Is the visual representation of the data showing what you intend it to, and are the data variables really perceptible by the user? Are you using the best visual channels for importance of each data variable you are trying to represent? Also consider what you need to show directly to the user, and what secondary information you might reveal through interactivity. Finally, determine the number of visualizations you need to tell your story: you may need more than one visual to explain multiple facets of your story.</li>
+          <li><strong>Iterate</strong>: Developing a strong visualization is a process. Would mapping a data variable to a different channel make the data more easily perceptible? Are the most important data points being shown? After visualizing, are you finding that your original understanding of the data has changed and, if so, would a different visualization approach be better?</li>
+          <li><strong>Tell the Story</strong>: Develop the story for what you found in the data. The story should explain:
+            <ul>
+              <li>The big picture of the story</li>
+              <li>The details: describe the thought process that got you to the story. Use the visuals you have created to reinforce your message and show evidence for your conclusions.  Use the visuals to have an impact on the reader/consumer.</li>
+              <li>Summarize: conclude your story.</li>
+            </ul>
+          </li>
+          <li><strong>Finalizing Design</strong>: check out the style/design for your document and see what you can do to clean it up. Look at formatting, fonts, colors, style, etc. Like the visualizations, look to make the document as clear as possible for the reader to make the biggest impact possible.</li>
+          <li><strong>Do the Write Up</strong>: Finish your project by doing a write-up on the project devleopment process. What steps did you take? What did you find? Did you have any challenges?</li>
+        </ol>
+
+        <h2>Grading</h2>
+
+        <p>This project is worth 10% of your final grade. It is broken down into:</p>
+
+        <ul>
+          <li>Visualization: 60%</li>
+          <li>Storytelling: 20%</li>
+          <li>Write up: 20%</li>
+        </ul>
+
+      </section>
+    </main>
+
+  <script>
+      document.querySelectorAll("a").forEach(
+                (l) => l.setAttribute("target", "_blank"));
+  </script>
+  </body>
+</html>

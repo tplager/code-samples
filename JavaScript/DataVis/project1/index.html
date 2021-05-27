@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <title>Project 1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        canvas {
+            width: 70%;
+            min-height: 300px;
+            border: 5px groove gray;
+            max-height: 300px;
+            overflow: scroll;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
+    <script type='module' src='./src/main.js'></script>
+</head>
+
+<body>
+    <h1>Project 1</h1>
+    <h2>Time Spoken by Each Candidate</h2>
+    <p>With the democratic primaries officially underway and the November general election quickly approaching, there has been a lot of discussion surrounding what really makes a good candidate. Using data gathered from the democratic debates, we can compare some of the data such as speaking times words used and determine if there really is any correlation.</p>
+        
+    <!--Chart 1-->
+    From <input type='date' id='chart1DateStart'> To <input type='date' id='chart1DateEnd'>
+    <svg id='chart1'></svg>
+    <p>Regarding speaking time, we can examine each candidate's speaking time in seconds against the date, allowing us to isolate specific debates or groups of debates.</p>
+    <p>The first piece of information that obviously jumps out when viewing this chart if all the debates are included is that the frontrunner candidates have much more speaking time overall. Joe Biden, Pete Buttigieg, Amy Klobuchar, Bernie Sanders, and Elizabeth Warren have at least twice as much as the next highest candidate by speaking time, Kamala Harris. Many of the candidates with the lowest speaking times only spoke at 1 or 2 debates, showing that a high speaking time should cause a candidate to do well in elections. </p>
+    
+    <!--Chart 2-->
+    <h2>Democratic Primary Results by Delegate</h2>
+    <svg id='chart2'></svg>
+    <p>Chart 2 shows the actual number of delegates each candidate received for each primary/caucus. As expected, Joe Biden and Bernie Sanders received the most delegates with Elizabeth Warren and Michael Bloomberg far behind, but close in relation to one another. The candidates shown with no actual delegates didn't receive any delegates, but did well enough in the primaries to be reported as receiving some percentage of the total votes.</p>
+    <p>The one anomaly regarding the democratic delegates is Michael Bloomberg. Even though he joined the democratic primary race fairly late, he still has essentially the 4th most delegates. This problem is somewhat solved though when you realize that even though he joined so late, he still has spoken longer than around 10 other former democratic candidates.</p>
+    <p>To actually win the democratic nomination, a candidate must receive slightly less than 2,000 delegates. A feat 2 candidates are reasonably close to reaching, or at least as close to reaching as one another. </p>
+    
+    <!--Chart 3-->
+    <h2>Democratic Primary Results by Percentage</h2>
+    <select id="chart3Select">
+        <option selected>Alabama</option>
+        <option>Arkansas</option>
+        <option>California</option>
+        <option>Colorado</option>
+        <option>Iowa</option>
+        <option>Idaho</option>
+        <option>Maine</option>
+        <option>Massachusetts</option>
+        <option>Michigan</option>
+        <option>Minnesota</option>
+        <option>Mississippi</option>
+        <option>Missouri</option>
+        <option>Nevada</option>
+        <option>New Hampshire</option>
+        <option>North Carolina</option>
+        <option>North Dakota</option>
+        <option>Oklahoma</option>
+        <option>South Carolina</option>
+        <option>Tennessee</option>
+        <option>Texas</option>
+        <option>Utah</option>
+        <option>Vermont</option>
+        <option>Virginia</option>
+        <option>Washington</option>
+    </select>
+    <svg id='chart3'></svg>
+    <p>This visualization shows each candidates' earned percentage by state. This is primarily because total percentages can't be compared, they must be compared against one another individually for their specific state. </p>
+    <p>Primarily, the candidates who actually are reported as earning a percentage are limited to Michael Bennet, Joe Biden, Michael Bloomberg, Bernie Sanders, Elizateth Warren, Tulsi Gabbard, and Amy Klobuchar, once again, most of the candidates with the highest speaking times. </p>
+    
+    <!--Chart 4-->
+    <h2>Most Spoken Words</h2>
+    <select id="cloudSelect">
+        <option selected>All</option>
+        <option>Bernie Sanders</option>
+        <option>Michael Bloomberg</option>
+        <option>Pete Buttigieg</option>
+        <option>Elizabeth Warren</option>
+        <option>Tom Steyer</option>
+        <option>Joe Biden</option>
+        <option>Amy Klobuchar</option>
+        <option>Andrew Yang</option>
+        <option>Kamala Harris</option>
+        <option>Cory Booker</option>
+        <option>Tulsi Gabbard</option>
+        <option>Julian Castro</option>
+        <option>Beto O'Rourke</option>
+        <option>Bill de Blasio</option>
+        <option>Michael Bennet</option>
+        <option>Jay Inslee</option>
+        <option>Kirsten Gillibrand</option>
+        <option>Steve Bullock</option>
+        <option>Marianne Williamson</option>
+        <option>John Delaney</option>
+        <option>Tim Ryan</option>
+        <option>John Hickenlooper</option>
+        <option>Eric Swalwell</option>
+    </select>
+    <svg id='wordCloud'></svg>
+    <p>Finally, we can examine some of the most used words by each candidate. This, instead of allowing us to compare candidates aginst one another, allows us to understand the actual content of each candidates speach. However, it is important to be aware of the fact that some candidates have spoken much less and therefore their most spoken words will be pulled from a much smaller pool of total words. </p>
+    <p>Unsurprisingly, all of these candidates most spoken words include very "political" language and phrases. Looking at the most spoken words of all candidates together, people and going are the most frequently occuring words. President is a close second, as language surrounding the current president, Donald Trump, is found frequently in almost every candidates' speach.</p>
+</body></html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <title>Final Project</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-dispatch.v1.min.js"></script>
+    <script src="https://d3js.org/d3-ease.v1.min.js"></script>
+    <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+    <script src="https://d3js.org/d3-selection.v1.min.js"></script>
+    <script src="https://d3js.org/d3-timer.v1.min.js"></script>
+    <script src="https://d3js.org/d3-transition.v1.min.js"></script>
+    <script src="https://d3js.org/d3-drag.v1.min.js"></script>
+    <script src="https://d3js.org/d3-zoom.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js"></script>
+    <script type='module' src='./src/main.js'></script>
+    
+</head>
+
+<body>
+    <h1>Final Project</h1>
+    <svg id='chart1'></svg>
+    <div class='tooltip' style='opacity:0;'>
+        <img src='media/D&DStatsDisplay.png'>
+    </div>
+    <h2>What Does that Data Say?</h2>
+    <p>Though the data is displayed in a much different fashion than other similar visualizations, I believe it still conveys the information just as effectively. For example, it is easy to see from just looking at the visualization that there are many more fighters and rogues than warlocks and wizards. The black indicates homebrew classes or at least classes that aren't the major classes. </p>
+    <p>It is also interesting to see just how many of each combination there are. For example, I was surprised to see how many people multi-class in Fighter-Cleric or Fighter-Wizard. </p>
+    <p>Beyond the class display, it's also interesting to see how many of each race there are and what class they are. I'm still surprised by how many Half-Elves and Humans there are. Of course there are combinations that make sense like the relatively large number of Goliaths with Fighter as their class, but there's also interesting combinations like the 2 Aasimar warlocks. To be honest, I can't even write all of the interesting combinations because it would take so much time to look through all of the data.</p>
+    <p>I also think it would be interesting, though I haven't done it yet, to analyze the ability scores of some of the combinations, especially the really common ones, to see if they are also extremely similar. One can only imagine they are, but it may still yield interesting results.</p>
+    <p>So what should this data be used for? Obviously it's not as useful as some visualizations, but I do think it's very interesting. The most common combinations for instance are also probably the easiest to play and the best in terms of abilities and power. On the other hand, uncommon combinations may also be interesting to see because some of those that may not seem to work well together may actually work very well. </p>
+</body>
+
+</html>

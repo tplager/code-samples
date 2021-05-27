@@ -1,0 +1,714 @@
+[
+    {
+        "state": "Iowa", 
+        "date": "02-03-2020", 
+        "results": {
+            "Bernie_Sanders": { 
+                "delegates": "12", 
+                "percentage": "26.1"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "13", 
+                "percentage": "26.2"
+            },
+            "Joe_Biden": {
+                "delegates": "6", 
+                "percentage": "15.8"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "8", 
+                "percentage": "18.0"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "1", 
+                "percentage": "12.3"
+            },
+            "Andrew_Yang": {
+                "delegates": "0", 
+                "percentage": "1.0"
+            }
+        }   
+    }, 
+    {
+        "state": "New Hampshire", 
+        "date": "02-11-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "9", 
+                "percentage": "25.7"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "9", 
+                "percentage": "24.4"
+            },
+            "Joe_Biden": {
+                "delegates": "0", 
+                "percentage": "8.4"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "9.2"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "6", 
+                "percentage": "19.8"
+            }, 
+            "Tom_Steyer": {
+                "delegates": "0", 
+                "percentage": "3.6"
+            }
+        }
+    }, 
+    {
+        "state": "Nevada", 
+        "date": "02-22-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "24", 
+                "percentage": "46.8"
+            },
+            "Pete_Buttigieg": {
+                "delegates": "3", 
+                "percentage": "14.3"
+            },
+            "Joe_Biden": {
+                "delegates": "9", 
+                "percentage": "20.2"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "9.7"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "4.2"
+            }, 
+            "Tom_Steyer": {
+                "delegates": "0", 
+                "percentage": "4.7"
+            }
+        }
+    }, 
+    {
+        "state": "South Carolina", 
+        "date": "02-29-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "15", 
+                "percentage": "19.9"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "8.2"
+            },
+            "Joe_Biden": {
+                "delegates": "39", 
+                "percentage": "48.4"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "7.1"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "3.2"
+            }, 
+            "Tom_Steyer": {
+                "delegates": "0", 
+                "percentage": "11.3"
+            }
+        }
+    }, 
+    {
+        "state": "Alabama", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "8", 
+                "percentage": "16.5"
+            }, 
+            "Joe_Biden": {
+                "delegates": "44", 
+                "percentage": "63.3"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "5.7"
+            },
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "11.7"
+            }, 
+            "Michael_Bennet": {
+                "delegates": "0", 
+                "percentage": "0.5"
+            }
+        }
+    }, 
+    {
+        "state": "Arkansas", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "9", 
+                "percentage": "22.4"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "3.4"
+            },
+            "Joe_Biden": {
+                "delegates": "17", 
+                "percentage": "40.5"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "10.0"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "3.1"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "5", 
+                "percentage": "16.7"
+            } 
+        }
+    }, 
+    {
+        "state": "California", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "209", 
+                "percentage": "34.2"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "4.9"
+            },
+            "Joe_Biden": {
+                "delegates": "159", 
+                "percentage": "27.6"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "5", 
+                "percentage": "13.3"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "2.5"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "15", 
+                "percentage": "12.9"
+            } 
+        }
+    }, 
+    {
+        "state": "Colorado", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "21", 
+                "percentage": "36.8"
+            }, 
+            "Andrew_Yang": {
+                "delegates": "0", 
+                "percentage": "0.4"
+            },
+            "Joe_Biden": {
+                "delegates": "12", 
+                "percentage": "24.7"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "7", 
+                "percentage": "17.6"
+            },
+            "Tulsi_Gabbard": {
+                "delegates": "0", 
+                "percentage": "1.0"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "9", 
+                "percentage": "18.7"
+            }
+        }
+    }, 
+    {
+        "state": "Maine", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "9", 
+                "percentage": "32.9"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "2.1"
+            },
+            "Joe_Biden": {
+                "delegates": "11", 
+                "percentage": "34.1"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "4", 
+                "percentage": "15.7"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "1.4"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "12.0"
+            } 
+        }
+    }, 
+    {
+        "state": "Massachusetts", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "29", 
+                "percentage": "26.7"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "2.7"
+            },
+            "Joe_Biden": {
+                "delegates": "37", 
+                "percentage": "33.6"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "25", 
+                "percentage": "21.4"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "1.2"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "11.8"
+            } 
+        }
+    }, 
+    {
+        "state": "Minnesota", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "27", 
+                "percentage": "29.9"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "1.0"
+            },
+            "Joe_Biden": {
+                "delegates": "38", 
+                "percentage": "38.6"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "10", 
+                "percentage": "15.4"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "5.6"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "8.3"
+            } 
+        }
+    }, 
+    {
+        "state": "North Carolina", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "37", 
+                "percentage": "24.1"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "3.3"
+            },
+            "Joe_Biden": {
+                "delegates": "67", 
+                "percentage": "43.0"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "2", 
+                "percentage": "10.5"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "2.3"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "4", 
+                "percentage": "13.0"
+            } 
+        }
+    }, 
+    {
+        "state": "Oklahoma", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "13", 
+                "percentage": "25.4"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "1.7"
+            },
+            "Joe_Biden": {
+                "delegates": "21", 
+                "percentage": "38.7"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "1", 
+                "percentage": "13.4"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "2.2"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "2", 
+                "percentage": "13.9"
+            } 
+        }
+    }, 
+    {
+        "state": "Tennessee", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "19", 
+                "percentage": "25.0"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "3.3"
+            },
+            "Joe_Biden": {
+                "delegates": "33", 
+                "percentage": "41.7"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "1", 
+                "percentage": "10.4"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "2.1"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "10", 
+                "percentage": "15.5"
+            } 
+        }
+    }, 
+    {
+        "state": "Texas", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "102", 
+                "percentage": "30.0"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "4.0"
+            },
+            "Joe_Biden": {
+                "delegates": "111", 
+                "percentage": "34.5"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "5", 
+                "percentage": "11.4"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "2.1"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "10", 
+                "percentage": "14.4"
+            } 
+        }
+    }, 
+    {
+        "state": "Utah", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "13", 
+                "percentage": "35.3"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "8.8"
+            },
+            "Joe_Biden": {
+                "delegates": "5", 
+                "percentage": "18.5"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "16.3"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "3.6"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "2", 
+                "percentage": "15.8"
+            } 
+        }
+    }, 
+    {
+        "state": "Vermont", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "11", 
+                "percentage": "50.8"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "2.4"
+            },
+            "Joe_Biden": {
+                "delegates": "5", 
+                "percentage": "22.0"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "12.6"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "1.3"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "9.4"
+            } 
+        }
+    }, 
+    {
+        "state": "Virginia", 
+        "date": "03-03-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "31", 
+                "percentage": "23.1"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "0.8"
+            },
+            "Joe_Biden": {
+                "delegates": "66", 
+                "percentage": "53.2"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "2", 
+                "percentage": "10.7"
+            },
+            "Tulsi_Gabbard": {
+                "delegates": "0", 
+                "percentage": "0.9"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "9.8"
+            } 
+        }
+    }, 
+    {
+        "state": "Idaho", 
+        "date": "03-10-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "9", 
+                "percentage": "42.5"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "1.3"
+            },
+            "Joe_Biden": {
+                "delegates": "11", 
+                "percentage": "48.9"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "2.7"
+            },
+            "Tulsi_Gabbard": {
+                "delegates": "0", 
+                "percentage": "0.8"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "2.4"
+            } 
+        }
+    }, 
+    {
+        "state": "Michigan", 
+        "date": "03-10-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "52", 
+                "percentage": "36.4"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "1.4"
+            },
+            "Joe_Biden": {
+                "delegates": "72", 
+                "percentage": "52.9"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "2", 
+                "percentage": "1.6"
+            },
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "4.6"
+            } 
+        }
+    }, 
+    {
+        "state": "Mississippi", 
+        "date": "03-10-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "2", 
+                "percentage": "14.8"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "0.2"
+            },
+            "Joe_Biden": {
+                "delegates": "31", 
+                "percentage": "81.1"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "2", 
+                "percentage": "0.5"
+            },
+            "Tulsi_Gabbard": {
+                "delegates": "0", 
+                "percentage": "0.4"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "2.5"
+            } 
+        }
+    }, 
+    {
+        "state": "Missouri", 
+        "date": "03-10-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "24", 
+                "percentage": "34.6"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "0.5"
+            },
+            "Joe_Biden": {
+                "delegates": "44", 
+                "percentage": "60.1"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "2", 
+                "percentage": "1.2"
+            },
+            "Tulsi_Gabbard": {
+                "delegates": "0", 
+                "percentage": "0.7"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "1.5"
+            } 
+        }
+    }, 
+    {
+        "state": "North Dakota", 
+        "date": "03-10-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "8", 
+                "percentage": "53.3"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "1.1"
+            },
+            "Joe_Biden": {
+                "delegates": "6", 
+                "percentage": "39.8"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "2.5"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "1.5"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "0.8"
+            } 
+        }
+    }, 
+    {
+        "state": "Washington", 
+        "date": "03-10-2020", 
+        "results": {
+            "Bernie_Sanders": {
+                "delegates": "17", 
+                "percentage": "33.7"
+            }, 
+            "Pete_Buttigieg": {
+                "delegates": "0", 
+                "percentage": "5.2"
+            },
+            "Joe_Biden": {
+                "delegates": "17", 
+                "percentage": "35.0"
+            },
+            "Elizabeth_Warren": {
+                "delegates": "0", 
+                "percentage": "11.2"
+            },
+            "Amy_Klobuchar": {
+                "delegates": "0", 
+                "percentage": "2.7"
+            }, 
+            "Michael_Bloomberg": {
+                "delegates": "0", 
+                "percentage": "9.9"
+            } 
+        }
+    }
+]

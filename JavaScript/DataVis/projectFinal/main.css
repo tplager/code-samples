@@ -1,0 +1,49 @@
+body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.backing {
+    fill: none;
+    opacity: 0;
+    stroke: lightgray;
+    stroke-width: 20px;
+}
+
+.tooltip {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    -webkit-text-stroke: 1px white;
+    pointer-events: none;
+}
+
+.not-in-focus {
+    opacity: 0.1;
+    transition: opacity 1000ms;
+}
+
+.in-focus {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+
+.background {
+    fill: white;
+}
+
+.ability-modifier {
+    font-size: 60px;
+}
+
+.race-circle {
+    pointer-events: none;
+}
+
+.legend-back {
+    pointer-events: none;
+}
+
+.char-info {
+    font-size: 24px;
+}

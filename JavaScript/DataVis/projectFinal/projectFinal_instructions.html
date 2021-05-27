@@ -1,0 +1,198 @@
+<html>
+
+  <head>
+    <title>IGME 460.01 - Data Visualization</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:400,700" rel="stylesheet">
+
+<style>
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+
+header, main, footer {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+header, footer {
+  text-align: center;
+}
+
+header {
+  padding: 10px 0px;
+}
+
+header>h1, header>h2{
+  font-family: 'Roboto Bold', sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 10px 0px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+.centered {
+  text-align: center;
+}
+</style>
+  </head>
+  <body>
+
+    <header>
+      <h1>IGME 460.01 <br/>Data Visualization</h1>
+      <p>Fall 2019<br/>Travis Stodter</p>
+    </header>
+
+    <main>
+      <section>
+        <h1>Final Project</h1>
+
+        <h2>Due Date</h2>
+
+        <p>Monday, April 27, 11:59 PM. You will present your Final Project to the
+          class during Finals Week. This may change given our current alternative learning methods,
+          but plan on presenting your project even if just to me.</p>
+
+        <h2>Instructions</h2>
+
+        <p>Time to bring everything we've learned in this class together to craft
+          a data-driven story backed by an exploratory interactive visualization.
+          You will be creating a project that:
+        </p>
+
+        <ul>
+          <li>Uses real data that has been cleaned and analyzed.</li>
+          <li>Uses D3 to build an interactive visual that allows the user to
+            <strong>explore</strong> the data.
+          </li>
+          <li>Optimizes use of marks and channels to maximize effectiveness.</li>
+          <li>Tells a story that is backed by the data.</li>
+        </ul>
+
+        <h2>Requirements</h2>
+
+        <h3>Data</h3>
+
+        <p>The data set must be large enough that it requires interactivity for the user to explore. This may be
+          due to to the number of data points or due to the number of data variables.
+        </p>
+
+        <p>The data may come from a single-source or be derived from multiple-sources. Data should be
+          cleaned and analyzed.  You will need to submit all datasets (sources, derived sets) and cite where the
+          data originally came from. The data should be real data from a reputable source.
+        </p>
+
+        <h3>Exploratory and Interactive Visualization</h3>
+
+        <p>The primary experience should be exploratory and interactive. This can take the form of an application-like
+          visualization (such as this interactive stock chart for <a href="https://finance.yahoo.com/quote/IBM/chart?p=IBM#eyJpbnRlcnZhbCI6ImRheSIsInBlcmlvZGljaXR5IjoxLCJ0aW1lVW5pdCI6bnVsbCwiY2FuZGxlV2lkdGgiOjUuNzYxNDIxMzE5Nzk2OTU1LCJ2b2x1bWVVbmRlcmxheSI6dHJ1ZSwiYWRqIjp0cnVlLCJjcm9zc2hhaXIiOnRydWUsImNoYXJ0VHlwZSI6ImxpbmUiLCJleHRlbmRlZCI6ZmFsc2UsIm1hcmtldFNlc3Npb25zIjp7fSwiYWdncmVnYXRpb25UeXBlIjoib2hsYyIsImNoYXJ0U2NhbGUiOiJsaW5lYXIiLCJzdHVkaWVzIjp7InZvbCB1bmRyIjp7InR5cGUiOiJ2b2wgdW5kciIsImlucHV0cyI6eyJpZCI6InZvbCB1bmRyIiwiZGlzcGxheSI6InZvbCB1bmRyIn0sIm91dHB1dHMiOnsiVXAgVm9sdW1lIjoiIzAwYjA2MSIsIkRvd24gVm9sdW1lIjoiI0ZGMzMzQSJ9LCJwYW5lbCI6ImNoYXJ0IiwicGFyYW1ldGVycyI6eyJ3aWR0aEZhY3RvciI6MC40NSwiY2hhcnROYW1lIjoiY2hhcnQifX19LCJwYW5lbHMiOnsiY2hhcnQiOnsicGVyY2VudCI6MSwiZGlzcGxheSI6IklCTSIsImNoYXJ0TmFtZSI6ImNoYXJ0IiwidG9wIjowfX0sInNldFNwYW4iOm51bGwsImxpbmVXaWR0aCI6Miwic3RyaXBlZEJhY2tncm91ZCI6dHJ1ZSwiZXZlbnRzIjp0cnVlLCJjb2xvciI6IiMwMDgxZjIiLCJyYW5nZSI6bnVsbCwiZXZlbnRNYXAiOnsiY29ycG9yYXRlIjp7ImRpdnMiOnRydWUsInNwbGl0cyI6dHJ1ZX0sInNpZ0RldiI6e319LCJzeW1ib2xzIjpbeyJzeW1ib2wiOiJJQk0iLCJzeW1ib2xPYmplY3QiOnsic3ltYm9sIjoiSUJNIn0sInBlcmlvZGljaXR5IjoxLCJpbnRlcnZhbCI6ImRheSIsInRpbWVVbml0IjpudWxsLCJzZXRTcGFuIjpudWxsfV19">IBM</a>
+          on Yahoo Finance, or the projects by <a href="https://fathom.info/projects/#visualization">Fathom</a>) or a journalistic approach where a visualization evolves as the user explores the page
+          (such as this <a href="https://www.nytimes.com/interactive/2018/11/07/us/politics/how-democrats-took-the-house.html">NY Times</a> article).
+        </p>
+
+        <p>Interactivity should be purposeful and designed to invite exploration in ways that make the data easy to explore.
+          We will discuss these ideas further in class 13.2 and 13.3 as you ramp up to develop the project.
+        </p>
+
+        <p>Be careful not to make an interactive visualization just for the sake of checking off boxes: do be sure that the data and story are ones that will benefit from an exploratory visualization.
+        </p>
+
+        <h3>Style</h3>
+
+        <p>The project's style should be polished and not get in the way of the story and visualization.</p>
+
+        <h2>Process</h2>
+
+        <ol>
+          <li>Find data that you would like to work with. Analyze it to see what are its data variables
+            and sketch out some ideas on what kind of visualization makes sense to use. Think about
+            interactivity and how it might help for the data you have.
+          </li>
+          <li>Create a development plan for the visualization.</li>
+          <li>Develop the initial, non-interactive visualization as a starting point for your work.
+          </li>
+          <li>Continue to iterate through the development of the visualization.</li>
+          <li>Fill in the story (text, images), and finish out the design.</li>
+          <li>Write out your documentation.</li>
+        </ol>
+
+        <h2>Documentation</h2>
+
+        <p>This project needs to have documentation that explains:</p>
+
+        <ol>
+          <li>How you worked with the data.</li>
+          <li>What you analyzed about the data in terms of data variables and how that informed your choice of visualization.</li>
+          <li>Your design for the visualization: what channels and marks are in use and why did you choose them? What scales and axes are in use and why did you use them?
+            What other information (e.g., legends) did you use and why did you use them?
+          </li>
+          <li>What are the interactions in the visualization? Why did you use each one? What aspect of working with data does the interaction address?</li>
+          <li>Your development process.</li>
+          <li>Overall project experience.</li>
+        </ol>
+
+        <h2>Grading</h2>
+
+        <p>This project is worth 30% of your final grade. It is broken down into:</p>
+
+        <ul>
+          <li>Interactive Visualization: 60%</li>
+          <li>Data Work: 10%</li>
+          <li>Written Story: 5%</li>
+          <li>Final Presentation: 5%</li>
+          <li>Style: 10%</li>
+          <li>Documentation: 10%</li>
+        </ul>
+
+        <h2>Timeline</h2>
+
+        <p>Starting early, developing a development plan, and working a set amount each day
+          will help to make this project move along smoothly. Be sure to divide the project
+          into "must-have's" and "nice-to-have's" and take care of the important things first.
+          Also, be sure to factor in time for the unexpected, as it always happens.
+        </p>
+
+        <ul>
+          <li>Week 12: Decide on data and do an analysis of it. Sketch
+            out ideas for a visualization.
+          </li>
+          <li>Week 13: Have a base visualization that loads your data.</li>
+          <li>Week 14: Iterate to develop the visualization and ensure the
+            concept works as envisioned.
+          </li>
+          <li>15.3, April 24: Final Written Exam
+          </li>
+          <li>16.1, April 27: Project due
+          </li>
+          <li>April 29: Project presentations
+          </li>
+        </ul>
+
+      </section>
+    </main>
+
+  <script>
+      document.querySelectorAll("a").forEach(
+                (l) => l.setAttribute("target", "_blank"));
+  </script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+Links to where I found basic code that I modified for these 2 visualizations: 
+
+Word Cloud code: http://bl.ocks.org/joews/9697914
+https://github.com/jasondavies/d3-cloud
+
+Stacked Chart code: https://bl.ocks.org/caravinden/32a3d192e0e5f6af81f4bcc12adda8f7
+http://bl.ocks.org/mstanaland/6100713
